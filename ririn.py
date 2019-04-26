@@ -63,13 +63,13 @@ sw = LineClient("email","sandi")
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
-print("---LOGIN SUCCES BOSS- SELFBOT SOLO")
+print("---LOGIN SUCCES BOSS- SELFBOT RIRIN")
 poll = LinePoll(cl)
 call = cl
-creator = ["uf50d888821632d32461e37153ac775c0"]
-owner = ["uf50d888821632d32461e37153ac775c0"]
-admin = ["uf50d888821632d32461e37153ac775c0"]
-staff = ["uf50d888821632d32461e37153ac775c0"]
+creator = ["udbc1838abc423e230e3bfd56f078ce3d"]
+owner = ["udbc1838abc423e230e3bfd56f078ce3d"]
+admin = ["udbc1838abc423e230e3bfd56f078ce3d"]
+staff = ["udbc1838abc423e230e3bfd56f078ce3d"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
