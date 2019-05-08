@@ -3161,10 +3161,10 @@ def bot(op):
                         elif cmd == "speed" or cmd == "sp":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               start = time.time()
+                               start = time.time() / 3
                                sendMention(msg.to, sender, "「Speed 」\n• Sabar boss ririn", "")
-                               elapsed_time = time.time() - start
-                               cl.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() / 3 - start
+                               cl.sendMessage(msg.to, "{} detik".format(str(elapsed_time/3)))
                                 
                         elif cmd == "lurking on":
                           if wait["selfbot"] == True:
