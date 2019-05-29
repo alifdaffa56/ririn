@@ -62,12 +62,12 @@ mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
-Dmid = kb.getProfile().mid
-Emid = kd.getProfile().mid
+#Dmid = kb.getProfile().mid
+#Emid = kd.getProfile().mid
 Zmid = sw.getProfile().mid
-KAC = [cl,ki,kk,kc,kb,kd,sw]
-ABC = [ki,kk,kc,kb,kd,sw]
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Zmid]
+KAC = [cl,ki,kk,kc,sw]
+ABC = [ki,kk,kc,sw]
+Bots = [mid,Amid,Bmid,Cmid,Zmid]
 Ghost = [sw]
 Dpk = admin + staff
 
